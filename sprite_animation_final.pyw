@@ -48,7 +48,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Sprite Animation")
 background = image.load("background.png").convert()
 
-# Crando los sprites y grupos
+# Creando los sprites y grupos
 player = Player(150, 100)
 moving_sprites = pygame.sprite.Group()
 moving_sprites.add(player)
